@@ -22,6 +22,9 @@
     .border_bg{
       border: 1px solid #FFDC26;
     }
+    .nav_border{
+      border-bottom: 1px solid #FFDC26;
+    }
     .bottom_border{
       border-bottom: 1px solid #b4b4b4;
     }
@@ -59,7 +62,7 @@
 
   <header>
     <!-- Nav Section -->
-   <div class="nav_containers section_bg py-3 bottom_border lg:border-none z-50">
+   <div class="nav_containers section_bg py-3 nav_border  lg:border-none z-50">
     <nav class="sora_font flex justify-between container mx-auto">
       <div class="nav_logo">
         <a class="btn btn-ghost text-xl">
@@ -197,7 +200,7 @@
      </section>
 
      <!-- Pet Product Section -->
-     <section class="product_section section_bg mt-20 py-8 md:px-5">
+     <section class="product_section section_bg mt-20 py-8 md:px-5 pb-16">
       <div class="product_container container mx-auto px-5 md:px-0">
         <h2 class="section_title text-2xl">Trending Pet Products</h2>
        <div class="product_card_container grid grid-cols-2 lg:grid-cols-5 gap-4 mt-10">
@@ -361,6 +364,50 @@
         </div>
       </div>
      </section>
+
+
+
+<!-- FAQs Section -->
+
+     <section class="faqs_section container mx-auto mt-20 p-7 section_bg rounded-sm">
+      <h2 class="section_title text-2xl mb-10 pl-3">This is extra section</h2>
+      <div class="collapse collapse-arrow section_bg ">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What types of cat food do you offer?</div>
+        <div class="collapse-content">
+          <p>We offer a variety of cat food, including dry kibble, wet canned food, grain-free options, and specialty diets for kittens, adults, and senior cats. We also carry veterinary-prescribed and organic food options.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow section_bg ">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Do you provide same-day delivery?</div>
+        <div class="collapse-content">
+          <p>Yes! We offer same-day delivery in select areas. Just place your order before [cutoff time], and we'll ensure your cat's favorite food and essentials arrive at your doorstep on time.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow section_bg ">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Are your treats and food made with natural ingredients?</div>
+        <div class="collapse-content">
+          <p>Absolutely! We prioritize high-quality, natural ingredients with no artificial preservatives, colors, or fillers. Many of our brands use ethically sourced and organic ingredients.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow section_bg ">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Can I set up a subscription for regular deliveries?</div>
+        <div class="collapse-content">
+          <p>Yes! Our subscription service allows you to schedule automatic deliveries of your cat’s favorite food, litter, and treats. You can customize the frequency and adjust or cancel anytime.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow section_bg ">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Do you offer returns or exchanges?</div>
+        <div class="collapse-content">
+          <p>We accept returns and exchanges on unopened and unused products within 14 days of purchase. If your cat doesn’t like a particular food, reach out to us, and we’ll help you find a better option!</p>
+        </div>
+      </div>
+     </section>
+
   </main>
 
   <!----------------------- Footer Section-------------------- -->
@@ -381,9 +428,9 @@
     </section>
 
      <!-- Main footer section -->
-    <section class="footer gap-20 footer_bg text-base-content p-10 sora_font lg:mt-80 mt-96 py-20 lg:pt-60 pt-80 md:pt-96">
+    <section class="footer footer_bg text-base-content p-10 sora_font lg:mt-80 mt-96 py-20 lg:pt-60 pt-80 md:pt-96">
       <aside>
-        <div class="footer_logo">
+        <div class="footer_logo lg:-mt-3 mt-6">
           <a class="btn btn-ghost text-xl p-0">
             <img src="c1-assets/logo-footer.png" alt="">
             <h2>Browse<span class="yellow_text">4</span>Cats</h2>
